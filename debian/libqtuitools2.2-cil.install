@@ -1,0 +1,3 @@
+usr/lib/mono/gac/qtuitools/2.2.*/qtuitools.dll usr/lib/cli/qtuitools-2.2/
+usr/lib/libqtuitools-sharp.so                  usr/lib/cli/qtuitools-2.2/
+debian/csharp/qtuitools.dll.config             usr/lib/cli/qtuitools-2.2/

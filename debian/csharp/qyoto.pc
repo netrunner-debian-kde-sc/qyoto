@@ -1,0 +1,8 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/
+
+Name: Qyoto
+Description: Qt .NET/Mono bindings
+Version: 4.5
+Libs: -r:${libdir}/cli/qt-dotnet-4.5/qt-dotnet.dll

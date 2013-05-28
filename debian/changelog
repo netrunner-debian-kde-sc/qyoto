@@ -1,0 +1,6 @@
+qyoto (4:4.10.2-1) UNRELEASED; urgency=low
+
+  * Initial release.
+
+ -- Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>  Wed, 17 Apr 2013 09:44:03 +0200
+

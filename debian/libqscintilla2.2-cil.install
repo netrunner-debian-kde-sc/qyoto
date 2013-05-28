@@ -1,0 +1,3 @@
+usr/lib/mono/gac/qscintilla/2.2.*/qscintilla.dll usr/lib/cli/qscintilla-2.2/
+usr/lib/libqscintilla-sharp.so                   usr/lib/cli/qscintilla-2.2/
+debian/csharp/qscintilla.dll.config              usr/lib/cli/qscintilla-2.2/

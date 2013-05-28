@@ -1,0 +1,3 @@
+usr/lib/mono/gac/phonon/4.4.*/phonon.dll usr/lib/cli/phonon-4.4/
+usr/lib/libphonon-sharp.so               usr/lib/cli/phonon-4.4/
+debian/csharp/phonon.dll.config          usr/lib/cli/phonon-4.4/

@@ -1,0 +1,3 @@
+usr/lib/mono/gac/qtwebkit/2.2.*/qtwebkit.dll usr/lib/cli/qtwebkit-2.2/
+usr/lib/libqtwebkit-sharp.so                 usr/lib/cli/qtwebkit-2.2/
+debian/csharp/qtwebkit.dll.config            usr/lib/cli/qtwebkit-2.2/

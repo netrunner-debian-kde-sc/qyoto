@@ -1,0 +1,8 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/
+
+Name: Qyoto - Phonon
+Description: Qt .NET/Mono bindings (Phonon)
+Version: 2.2
+Libs: -r:${libdir}/cli/phonon-2.2/phonon.dll

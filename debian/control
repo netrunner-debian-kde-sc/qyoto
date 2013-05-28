@@ -1,0 +1,109 @@
+Source: qyoto
+Section: cli-mono
+Priority: optional
+Maintainer: Debian Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
+Build-Depends: debhelper (>= 9),
+ cmake,
+ pkg-kde-tools (>= 0.14),
+ libqimageblitz-dev,
+ libqscintilla2-dev,
+ libphonon-dev,
+ libsmokeqt4-dev,
+ libqtwebkit-dev,
+ pkg-config,
+ cli-common-dev (>= 0.8~),
+ mono-gmcs (>= 1.1.8)
+Uploaders: Maximiliano Curia <maxy@debian.org>
+Standards-Version: 3.9.4
+Homepage: http://www.kde.org
+Vcs-Git: git://anonscm.debian.org/pkg-kde/kde-sc/qyoto.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/kde-sc/qyoto.git
+
+Package: libqyoto-cil-dev
+Depends: libqyoto4.5-cil (= ${binary:Version}),
+         libphonon4.4-cil (= ${binary:Version}),
+         libqscintilla2.2-cil (= ${binary:Version}),
+         libqtscript2.2-cil (= ${binary:Version}),
+         libqttest2.2-cil (= ${binary:Version}),
+         libqtuitools2.2-cil (= ${binary:Version}),
+         libqtwebkit2.2-cil (= ${binary:Version}),
+         ${misc:Depends}
+Architecture: any
+Description: development files for Qt CLI bindings
+ This package contains the development files (pc files) for Qt CLI bindings
+
+Package: libphonon4.4-cil
+Depends: ${cli:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: CLI bindings for Qt 4 Phonon
+ This package provides the Phonon assembly, that allows CLI-based software to
+ use the Phonon library.
+
+Package: libqscintilla2.2-cil
+Depends: ${cli:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: CLI-bindings for QScintilla
+ QScintilla is a text editor for Qt4 with features especially useful when
+ writing and debugging source code. These include support for syntax
+ styling, error indicators, code completion, call tips and margins.
+ .
+ This package provides the QScintilla assembly, that allows CLI-based software
+ to use the QScintilla library.
+
+Package: libqtscript2.2-cil
+Depends: ${cli:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: CLI-bindings for QtScrtipt
+ This package provides the QtScript assemply that allows
+ CLI-based software to use the QtScript library.
+
+Package: libqttest2.2-cil
+Depends: ${cli:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: CLI bindings for QtTest
+ This package provides the QtTest assemply that allows
+ CLI-based software to use the QtTest library.
+
+Package: libqtuitools2.2-cil
+Depends: ${cli:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: CLI bindings for QtUiTools
+ This package provides the QtUiTools assembly, that allows
+ CLI-based software to use the QtUiTools library.
+
+Package: libqtwebkit2.2-cil
+Depends: ${cli:Depends}, ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: CLI bindings for QtWebkit
+ This package provides the QtWebkit assembly, that allows
+ CLI-based software to use the QtWebkit library.
+
+Package: libqyoto4.5-cil
+Depends: ${cli:Depends}, ${misc:Depends}
+Architecture: any
+Description: Qt bindings for CLI
+ This package provides the Qt-dotnet assembly that allows CLI-based software to
+ use the Qt library.
+
+Package: libqyoto-dev
+Section: libdevel
+Depends: libqyoto2 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: development files for Qt 4 CLI bindings
+ This package contains development files for building software that links
+ againts the shared library for Qyoto, the Qt 4 CLI bindings.
+
+Package: libqyoto2
+Section: libs
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: shared library for Qt 4 CLI bindings
+ This package provides the shared library for Qyoto, the Qt 4 CLI bindings.
+
+Package: qyoto-dev
+Depends: libqyoto4.5-cil (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Architecture: any
+Description: development tools for Qt CLI bindings
+ This package provides csuic and other tools to help building 
+ CLI applications with Qt and KDE.
+

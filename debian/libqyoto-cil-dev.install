@@ -1,0 +1,7 @@
+debian/csharp/phonon-sharp.pc     usr/lib/pkgconfig/
+debian/csharp/qscintilla-sharp.pc usr/lib/pkgconfig/
+debian/csharp/qtscript-sharp.pc   usr/lib/pkgconfig/
+debian/csharp/qttest-sharp.pc     usr/lib/pkgconfig/
+debian/csharp/qtuitools-sharp.pc  usr/lib/pkgconfig/
+debian/csharp/qtwebkit-sharp.pc   usr/lib/pkgconfig/
+debian/csharp/qyoto.pc            usr/lib/pkgconfig/

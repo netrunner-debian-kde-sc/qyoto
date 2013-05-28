@@ -1,0 +1,8 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/
+
+Name: Qyoto - QtTest
+Description: Qt .NET/Mono bindings (QtTest)
+Version: 2.2
+Libs: -r:${libdir}/cli/qttest-2.2/qttest.dll

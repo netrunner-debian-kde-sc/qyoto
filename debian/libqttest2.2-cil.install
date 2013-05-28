@@ -1,0 +1,3 @@
+debian/csharp/qttest.dll.config      usr/lib/cli/qttest-2.2/
+usr/lib/libqttest-sharp.so           usr/lib/cli/qttest-2.2/
+usr/lib/mono/gac/qttest/*/qttest.dll usr/lib/cli/qttest-2.2/

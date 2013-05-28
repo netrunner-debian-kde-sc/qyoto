@@ -1,0 +1,8 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/
+
+Name: Qyoto - Qscintilla
+Description: Qt .NET/Mono bindings (Qscintilla)
+Version: 2.2
+Libs: -r:${libdir}/cli/qscintilla-2.2/qscintilla.dll

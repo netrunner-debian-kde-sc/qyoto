@@ -1,0 +1,8 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/
+
+Name: Qyoto - QtScript
+Description: Qt .NET/Mono bindings (QtScript)
+Version: 2.2
+Libs: -r:${libdir}/cli/qtscript-2.2/qtscript.dll

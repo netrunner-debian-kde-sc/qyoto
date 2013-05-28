@@ -1,0 +1,3 @@
+usr/lib/mono/gac/qtscript/2.2.*/qtscript.dll usr/lib/cli/qtscript-2.2/
+usr/lib/libqtscript-sharp.so                 usr/lib/cli/qtscript-2.2/
+debian/csharp/qtscript.dll.config            usr/lib/cli/qtscript-2.2/
